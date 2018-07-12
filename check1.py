@@ -3,8 +3,8 @@ vowels=["a","e","i","o","u"]
 c=ord(n)
 if c>=97 and c<=122:
     if n in vowels:
-        print("vowels")
+        print("Vowel")
     else:
-        print("consonants")
+        print("Consonant")
 else:
     print("invalid")
