@@ -1,0 +1,8 @@
+n=input()
+n1=input()
+n=n.split()
+n1=n1.split()
+h=abs(int(n[0])-int(n1[0]))
+m=abs(int(n[1])-int(n1[1]))
+print(h,end=" ")
+print(m)
