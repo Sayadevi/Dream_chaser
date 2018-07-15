@@ -1,0 +1,8 @@
+n=int(input())
+s=input()
+s1=s.split()
+n=len(s1)
+a=sorted(s1)
+print(a)
+mid=int((0+n)//2)
+print(a[mid])
