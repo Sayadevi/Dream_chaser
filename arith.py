@@ -1,0 +1,6 @@
+n1=input()
+n2=n1.split()
+n3=int(n2[1])
+n4=int(n2[2])
+f=n3+(n3+n4)+(n3+2*n4)
+print(f)
